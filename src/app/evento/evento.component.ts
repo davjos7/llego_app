@@ -12,7 +12,10 @@ export class EventoComponent {
 
   constructor(private http: HttpClient, private route : ActivatedRoute) {
 
-    let url_eventos = 'http://localhost:8000/api/eventos/detalle/2'
+    let id = this.route.snapshot.params['id'];
+    console.log(id)
+
+    let url_eventos = 'http://localhost:8000/api/eventos/detalle/'+id;
     this.http.get(url_eventos).subscribe( //subscribe es para traer lo que se obtuvo, el this es para llamar una funcion o una variable
     (data : any)=>{
       console.log(data)
