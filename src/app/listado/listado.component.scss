@@ -1,0 +1,52 @@
+/* TARJETA */
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Permanent+Marker&display=swap');
+
+
+.body{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #4fd4ac, #0f739b);
+    /* Si deseas un fondo vertical, usa esta línea en su lugar:
+    background: linear-gradient(#ff8a00, #e52e71); */
+}
+.card {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+
+  .llego2{
+    margin-top: 0;
+    font-family: 'Faster One', cursive;
+    font-size: 50px;
+    color: black;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%;
+    font-size: 16px;
+  }

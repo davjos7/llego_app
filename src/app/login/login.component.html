@@ -1,0 +1,19 @@
+
+<section class="body">
+
+    <div class="container">
+        <h1 id="llego1">LLEGO</h1>
+        <div class="caja_logito">
+            <img class="logitoinicio" src="https://static.vecteezy.com/system/resources/previews/001/196/404/non_2x/run-cartoon-png.png" alt="">
+        </div>
+        <form #f="ngForm" (ngSubmit)="enviar(f)">
+        <input type="text" placeholder="Correo Electronico" name="login"  ngModel>
+        <input type="password" placeholder="Contraseña" name="contrasena" ngModel>
+        <br>
+        <br>
+
+        <button id="iniciarSesion" type="submit">Iniciar sesión</button>
+        <button id="registrar" type="button" routerLink="/registro" >Registrarse</button>
+        </form>
+    </div>
+</section>

@@ -1,0 +1,18 @@
+<section class="body">
+<div class="titulo_tarjeta">
+    <h1 class="llego2">LLEGO</h1>
+</div>
+<!-- ngFor es para hacer un bucle -->
+<div *ngFor="let fila of eventos" class="card"> 
+    <h2>{{ fila.nombre }}</h2>
+    <p>{{ fila.descripcion }}</p>
+    <div class="buttons">
+    <select name="estado" class="button">
+        <option value="asistire">asistire</option>
+        <option value="no asistire">no asistire</option>
+    </select>
+    <button class="button">+info</button>
+    </div>
+</div>
+
+</section>
