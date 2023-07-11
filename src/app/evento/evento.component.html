@@ -1,9 +1,27 @@
-<h2>NOMBRE DE EVENTO</h2>
+<h1> {{ eventos.nombre }} </h1>
 
-<h4>Direccion</h4>
-<p>Av. Casa 123</p>
+<h3>Descripcion</h3>
+<p>{{ eventos.descripcion }}</p>
 
-<h4>Fecha</h4>
-<p>2023-07-25</p>
+<h3>Direccion</h3>
+<p> {{ eventos.direccion }} </p>
 
-<button type="button" routerLink="/listado" >Regresar al listado</button>
+<h3>Hora</h3>
+<p> {{ eventos.hora }} </p>
+
+<h3>Fecha</h3>
+<p> {{ eventos.fecha }} </p>
+
+<h3>organizador</h3>
+<p> {{ eventos.organizador }} </p>
+
+<h3>Requisitos</h3>
+<p> {{ eventos.requisitos }} </p>
+
+<h3>Motivo</h3>
+<p> {{ eventos.motivo }} </p>
+
+<h3>Costo</h3>
+<p> {{ eventos.costo_total }} </p>
+
+<button type="button" routerLink="/listado">+</button>

@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { ListadoComponent } from './listado/listado.component';
 import { RegistroComponent } from './registro/registro.component';
 import { EventoComponent } from './evento/evento.component';
+import { AgregareventoComponent } from './agregarevento/agregarevento.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EventoComponent } from './evento/evento.component';
     LoginComponent,
     ListadoComponent,
     RegistroComponent,
-    EventoComponent
+    EventoComponent,
+    AgregareventoComponent
   ],
   imports: [
     BrowserModule,

@@ -36,7 +36,7 @@ export class RegistroComponent {
         'nombre' :  f.form.value.nombre,
         'apellido' :  f.form.value.apellido,
         'correo' :  f.form.value.correo,
-        'contraseña' :  f.form.value.genero,
+        'contraseña' :  f.form.value.contrasena,
         'fecha_nacimiento' : f.form.value.fecha_nacimiento,
         'telefono' : f.form.value.telefono,
         'plata' : f.form.value.plata,

@@ -8,7 +8,18 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./evento.component.scss']
 })
 export class EventoComponent {
-  public eventos : any;
+  public eventos : any = {
+    nombre : '',
+    descripcion : '',
+    fecha : '',
+    hora : '',
+    direccion : '',
+    referencia : '',
+    organizador : '',
+    requisitos : '',
+    motivo : '',
+    costo_total : '',
+  }
 
   constructor(private http: HttpClient, private route : ActivatedRoute) {
 

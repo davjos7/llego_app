@@ -1,0 +1,37 @@
+
+
+<section class="body">
+    <h2>AGREGA TUS EVENTOS</h2>
+
+    <div class="container">
+        
+        <form #f="ngForm" (ngSubmit)="enviar(f)">
+        <label>Nombre</label>
+        <input type="text" placeholder="Nombre" name="nombre"  ngModel>
+        <label>descripcion</label>
+        <input type="text" placeholder="descripcion" name="descripcion" ngModel>
+        <label>fecha</label>
+        <input type="date" placeholder="fecha" name="fecha" ngModel>
+        <label>hora</label>
+        <input type="time" placeholder="hora" name="hora" ngModel>
+        <label>direccion</label>
+        <input type="text" placeholder="direccion" name="direccion"  ngModel>
+        <label>referencia</label>
+        <input type="text" placeholder="referencia" name="referencia" ngModel>
+        <label>organizador</label>
+        <input type="text" placeholder="organizador" name="organizador" ngModel>
+        <label>requisitos</label>
+        <input type="text" placeholder="requisitos" name="requisitos" ngModel>
+        <label>motivo</label>
+        <input type="text" placeholder="motivo" name="motivo" ngModel>
+        <label>costo total</label>
+        <input type="number" placeholder="costo total" name="costo_total" ngModel>
+
+        <br>
+        <br>
+
+        <button id="registrar" type="submit" routerLink="/evento">Agregar</button>
+        <button id="iniciarSesion" routerLink="/listado"type="submit">volver</button>
+        </form>
+    </div>
+</section>
